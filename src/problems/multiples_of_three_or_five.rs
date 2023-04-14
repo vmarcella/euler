@@ -25,7 +25,7 @@ fn naive() -> u32 {
 fn complex_for_no_reason() -> u32 {
     let mut sum = 0;
     for i in (5..=1000).step_by(5) {
-        // If i is divisible by 3, then it is also divisible by 5 and we can just add it to the sum
+        // Exclude multiples of 3 when i is both a multiple of 3 & 5
         if i % 3 == 0 {
             sum += i
         } else {
