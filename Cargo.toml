@@ -12,5 +12,10 @@ path = "src/lib.rs"
 name = "multiples_of_three_or_five"
 path = "src/problems/multiples_of_three_or_five.rs"
 
+[[bin]]
+name = "even_fib_numbers"
+path = "src/problems/even_fib_numbers.rs"
+
+
 
 [dependencies]
