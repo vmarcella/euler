@@ -1,7 +1,7 @@
 fn main() {
     let mut previous = 1 as u64;
     let mut current = 0;
-    let mut next = 0;
+    let mut next;
 
     let limit = 4_000_000;
 
