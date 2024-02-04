@@ -16,6 +16,8 @@ path = "src/problems/multiples_of_three_or_five.rs"
 name = "even_fib_numbers"
 path = "src/problems/even_fib_numbers.rs"
 
-
+[[bin]]
+name = "largest_prime_factor"
+path = "src/problems/largest_prime_factor.rs"
 
 [dependencies]
